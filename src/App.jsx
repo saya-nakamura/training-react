@@ -1,9 +1,8 @@
 /* eslint react-hooks/exhaustive-deps: off*/
 import React, { useEffect, useState } from "react";
-import ColorfulMessage from "./components/ColorfulMessage";
+import { ColorfulMessage } from "./components/ColorfulMessage";
 
 const App = () => {
-  console.log("最初");
   // stateを使用する場合、Reactで用意されているuseStateを使用する
   // 動的な変数と、変数の値を設定するsetterを定義する
   // useStateの引数は初期値となる
